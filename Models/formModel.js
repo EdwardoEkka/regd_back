@@ -2,15 +2,15 @@ const mongoose = require('mongoose');
 
 const formDataSchema = new mongoose.Schema({
   date: String,
-  first_name: String,
-  last_name: String,
+  name: String,
   gender:String,
+  year:String,
   regd: String,
   branch: String,
   section: String,
   email: String,
   contact: String,
-  feedback:String,
+  expectations:String,
   enigmaMotivation:String,
   primary_domain:String,
   secondary_domain:String,
